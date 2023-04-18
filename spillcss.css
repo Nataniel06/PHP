@@ -1,0 +1,44 @@
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+
+  
+  }
+
+  @keyframes forward {
+    
+    from {
+        transform: skewX(20px);
+    }
+
+    to {
+        transform: skewX(200px);
+    }
+
+
+}
+  
+.ac7 {
+    height: 1200px;
+    width: 1920px;
+    display: flex;
+    
+}
+.f35 {
+    
+    align-self: flex-start;
+    height: 300px;
+    width: 370px;
+    animation: rotation 1s infinite linear;
+}
+.j20 {
+    animation: forward 20s infinite linear;
+    align-self: flex-end;
+    height: 450px;
+    width: 550px;
+    animation: rotation 1s infinite linear;
+}
